@@ -8,7 +8,7 @@ public class else_if {
     public static void main(String[] args) {
        String myName = "Eugene";
        String mySurname = "Kladberov";
-       final String answer = "You are right! But, how did you guess it?..";
+       final String answer = "You are right! But, how did you guess it?..f.";
         System.out.println("Guess my name or surname;)");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
