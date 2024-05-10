@@ -9,7 +9,7 @@ public class interval {
             System.out.print("Enter a number from 0 to 100: ");
 
             int number = scanner.nextInt();
-             if (number >= 0 & number <+ 14) {
+             if (number >= 0 & number <= 14) {
              System.out.println("The number belongs to the interval [0 - 14]");
 
             } else if (number >= 15 & number <= 35) {
