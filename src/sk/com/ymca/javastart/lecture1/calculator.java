@@ -8,11 +8,12 @@ public class calculator {
         System.out.print("Enter the value of operand1: ");
         double operand1 = scanner.nextDouble();
 
+        System.out.print("Enter the arithmetic operation sign (+, -, *, /): ");
+        String sign = scanner.next();
+
         System.out.print("Enter the value of operand2: ");
         double operand2 = scanner.nextDouble();
 
-        System.out.print("Enter the arithmetic operation sign (+, -, *, /): ");
-        String sign = scanner.next();
         switch (sign) {
             case "+":
                 System.out.println("Result: " + (operand1 + operand2));
